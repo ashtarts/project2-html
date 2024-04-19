@@ -24,3 +24,6 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 <br>
 <br>
 6.Easter Eggao cliente (10%): Surpreenda o cliente com algo interessante.
+
+<h2>Projeto Feito</h2>
+<h3>Projeto dividido em Home, Sobre, Livros, Empréstimo, Loja, Review e Notícias</h3>
