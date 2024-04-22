@@ -1,213 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Loja da EducaLivros</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <script src="./loja.js" type="module"></script>
 </head>
 <body>
-    <section>
 
-        <nav>
+    <header>
+        <div class="leftItem">
+            <li class="navLink">⇱ Voltar</li>
 
-            <div class="logo">
-                <img src="https://github.com/ashtarts/project2-html/blob/main/img/LogoEL.png?raw=true">
-            </div>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#cursos">Cursos</a></li>
-                <li><a href="#itens">Itens</a></li>
-                
-        </nav>
-   <section class="arrivals" id="itens">
-    <br><br><br><br><br><br><br>
-    <h1>Itens</h1>
-
-    <div class="arrivals_box">
-        
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbr615Ix-O-Sxo8hu_tDhSnXhgVGqrzPFeWcY6TNVjA&s">
-            </div>
-            <div class="arrivals_tag">
-                <p>Uniforme Completo</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$500.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
+            <h1 class="Logo">EducaLivros - Loja</h1>
+            <nav class="nav">
+              
+            </nav>
         </div>
 
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://salesiano-ba.com.br/wp-content/uploads/2016/05/39_resize.jpg">
-            </div>
-            <div class="arrivals_tag">
-                <p>Uniforme de Educação Física</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$200.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
+        <div class="rightItem" id="shoppingCart">
+            <span class="totalItem" id="totalItem"></span>
+            <i class="fa-solid fa-cart-shopping navLink"></i>
         </div>
+    </header>
+    
 
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://http2.mlstatic.com/D_NQ_NP_988366-MLB73712038442_012024-O.webp">
-            </div>
-            <div class="arrivals_tag">
-                <p>Kit Material Escolar</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$250.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
+    <div class="itemContainer" id="itemContainer"></div>  
+    
+    <div class="cartContainer" id="cartContainer">
+        <div id="closeCart">
+            <h3 class="closeCart">Close</h3>
         </div>
+        <h1 id="cartTitle">No Item</h1>
 
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRnByWBxF9BerhGMJ93qsjvnFb-F5W21sW0-0x36zuVMdat7J04rUgErD4XdqWaDZ0iVulteo2JpJ6-DbQoOpFcIN7A5uUr4exxoJqAeE2g&usqp=CAE">
-            </div>
-            <div class="arrivals_tag">
-                <p>Vale-Refeição Mensal</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$100.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
+        <div id="eachCartItemContainer"></div>
+
+        <div id="totalPriceContainer">
+            <p>Total Price <span id="totalPrice"></span>R$</p>
         </div>
-
-    </div>
-</section>
-
-<section class="arrivals" id="cursos">
-    <br><br><br><br><br><br>
-    <h1>Cursos</h1>
-
-    <div class="arrivals_box">
-
-     <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://www.maracanau.ce.gov.br/wp-content/uploads/2016/05/logo-pr%C3%A9-enem.jpg">
-            </div>
-            <div class="arrivals_tag">
-                <p>Curso Preparatório</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$250.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
-        </div>
-
-
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzCFNWdd5c5VDbcPPBKFxpbEVR1MIY-iwUug&s">
-            </div>
-            <div class="arrivals_tag">
-                <p>Curso de Enfermagem</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$200.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
-        </div>
-
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://s24534.pcdn.co/carreira-sucesso/wp-content/uploads/sites/3/2022/05/headhunter-tecnologia-1200x720.jpg">
-            </div>
-            <div class="arrivals_tag">
-                <p>Curso de Informática</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$100.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
-        </div>
-
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6bT1mCbVf2P_wFZpFlOaQmr5a29jCYKTw9Hn-WzZiUw&s">
-            </div>
-            <div class="arrivals_tag">
-                <p>Curso de programação</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$150.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
-        </div>
-
-        <div class="arrivals_card">
-            <div class="arrivals_image">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAFVBMVEX////IEC7FABjrvcHswMTGACLejZTQY8wdAAABiUlEQVR4nO3asQ3DMBAEQVqk1H/JdgcTPgTvVHDY+Naata8PXHt44rQSUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRFQiKhGViEpEJaISUYmoRHSc6Exv3KPOcyvR/ZzZjeuaxUK/RsMTlyf+uxJRiahEVCIqEZWISkQlohJRiahEVCIqEZWISkQlohJRiahEVCIqEZWISkQlohJRiahEVCIqEZWISkQlohJRiahEVCIqEZWISkQlohJRiahEVCIqEZWISkRdsKgjH01fLd9wBx3WqZhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiElGJqERUIioRlYhKRCWiFyT6AlXQRZ39U6PdAAAAAElFTkSuQmCC">
-            </div>
-            <div class="arrivals_tag">
-                <p>Curso de Inglês</p>
-                <div class="arrivals_icon">
-                    <p class="book_price">R$100.00</p>
-                </div>
-                <a href="#" class="arrivals_btn">Comprar</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<div class="banner">
-</div>
-<br><br>
-    <div class="blog" id="Notice">
-
-<footer>
-    <div class="footer_main">
-
-        <div class="tag">
-            <img src="https://github.com/ashtarts/project2-html/blob/main/img/logo%20(2).png?raw=true">
-            <p>
-                EducaLivros: Educação criativa, emocional e acadêmica.
-            </p>
-
-        </div>
-
-        <div class="tag">
-            <h1>Contato</h1>
-            <a href="#"><i class="fa-solid fa-phone"></i>+55 81 91122-3344</a>
-            <a href="#"><i class="fa-solid fa-phone"></i>+55 81 91234-5678</a>
-            <a href="#"><i class="fa-solid fa-envelope"></i>educaLivros@gmail.com</a>
-            
-        </div>
-
-        <div class="tag">
-            <h1>Redes Sociais</h1>
-            <div class="social_link">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-            </div>
-            
-        </div>
-
-        <div class="tag">
-            <h1>Jornal Diário</h1>
-            <div class="search_bar">
-                <input type="text" placeholder="You email id here">
-                <button type="submit">Enviar</button>
-            </div>                
-        </div>            
-        
     </div>
 
-    <p class="end">Design By<span><i class="fa-solid fa-face-grin"></i> ashtarts</span></p>
-
-</footer>  
-
+  
 </body>
 </html>
