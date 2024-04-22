@@ -26,4 +26,17 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 6.Easter Eggao cliente (10%): Surpreenda o cliente com algo interessante.
 
 <h2>Projeto Feito</h2>
-<h3>Projeto dividido em Home, Sobre, Livros, Empréstimo, Loja, Review e Notícias</h3>
+<h3>Projeto dividido em 3 páginas. Home, Store e Library; de acordo com o que o professor pediu.</h3>
+1. Items.js e estoque.js, guardam as informações dos livros à venda e itens à venda. 
+<br>
+<br> 
+2. Loja.html é a página da loja feita em html, que usa o estoque.js, estilizada pelo carrinho.css.
+<br> 
+<br> 
+3. Livros.html é a página da biblioteca em html, que usa o items.js, estilizada pelo carrinho.css.
+<br>
+<br> 
+4.index.html é a página principal; dividida em: Home, Sobre, Biblioteca, Loja, Reviews e Notícias. com o header e o footer (+ um banner de aviso).
+<br>
+<br> 
+5. Link do site postado no Vercel no About do repositório.
