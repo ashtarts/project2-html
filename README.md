@@ -1,7 +1,7 @@
 # Projeto 2 - EducaLivros Online 
 
 <h2>O que o Professor pediu: </h2>
-Você e sua equipe de até 3desenvolvedores frontend(TAMANHO MÁXIMO DA EQUIPE:4)foram selecionados pela renomada escola-livraria, EducaLivros, para expandir seu negócio para a internet. O objetivo é criar uma experiência de usuário excepcional que destaque a marca da empresa no mercado.
+ O objetivo é criar uma experiência de usuário excepcional que destaque a marca da empresa no mercado.
 <br>
 A EducaLivros é especializada em educação infanto-juvenil e possui uma biblioteca com empréstimo e venda de livros de diversos gêneros. Agora, eles pretendem expandir para o e-commerce e precisam de um site completo que forneça informações sobre a escola para ganhar a confiança dos pais/responsáveis, apresente a biblioteca e os livros disponíveis para empréstimo ou venda, e inclua uma seção de e-commerce para vender produtos/serviços relacionados à educação (aulas particulares, cursos específicos), livros eprodutos em geral (camisetas da escola, bonés, etc).
 <br>
