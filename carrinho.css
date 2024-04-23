@@ -51,6 +51,8 @@ header{
     font-weight: 500;
     cursor: pointer;
     transition: all .5s ease-in-out;
+    color: #f0efef;
+    text-decoration: none;
 }
 
 ::-webkit-scrollbar{
