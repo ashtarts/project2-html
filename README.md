@@ -27,19 +27,30 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 
 <h2>Projeto Feito</h2>
 <h3>Projeto dividido em 3 páginas. Home, Store e Library; de acordo com o que o professor pediu.</h3>
-1. Items.js e estoque.js, guardam as informações dos livros à venda e itens à venda. 
+1. Páginas Estruturadas:
 <br>
-<br> 
-2. Loja.html é a página da loja feita em html, que usa o estoque.js, estilizada pelo carrinho.css.
-<br> 
-<br> 
-3. Livros.html é a página da biblioteca em html, que usa o items.js, estilizada pelo carrinho.css.
+ - index.html: Esta é a página inicial do site, que apresenta diversas seções, incluindo Home, Sobre, Biblioteca, Loja, Reviews e Notícias. O layout foi projetado para oferecer uma navegação intuitiva e fácil acesso às informações importantes.
+ <br>
+- Loja.html: A página da loja online, onde os visitantes podem explorar e adquirir livros, produtos educacionais, bem como itens diversos relacionados à marca da EducaLivros. Essa página utiliza o arquivo de estoque (estoque.js) para exibir os produtos disponíveis, e é estilizada com o auxílio do arquivo de estilo carrinho.css.
 <br>
-<br> 
-4.index.html é a página principal; dividida em: Home, Sobre, Biblioteca, Loja, Reviews e Notícias. com o header e o footer (+ um banner de aviso).
-<br>
-<br> 
-5. Link do site postado no Vercel no About do repositório.
+- Livros.html: A página da biblioteca, que oferece informações sobre os livros disponíveis para empréstimo. Os dados são fornecidos pelo arquivo items.js e a estilização é feita com base no carrinho.css.
 <br>
 <br>
-6. Um carrinho funcional, que o usuário consegue inserir e remover produtos, em que a calculadora soma e subtrai automaticamente. Feita em js.
+2. Funcionalidade do Carrinho de Compras:
+<br>
+- Implementou-se um carrinho de compras funcional, permitindo que os usuários adicionem e removam produtos facilmente. Uma calculadora integrada soma e subtrai automaticamente os itens selecionados, oferecendo uma experiência de compra suave e eficiente.
+<br>
+<br>
+3. Estilização CSS:
+<br>
+- Utilizou-se CSS para estilizar todas as páginas do site, garantindo uma experiência visualmente atraente e consistente em toda a plataforma. A estilização foi cuidadosamente elaborada para melhorar a usabilidade e a acessibilidade do site.
+<br>
+<br>
+4. GitHub e Deploy:
+<br>
+- O código-fonte do projeto foi hospedado no GitHub e compartilhado com a equipe por meio do link fornecido no repositório. Além disso, o site foi implantado no Vercel, fornecendo acesso público aos usuários interessados em explorar a plataforma.
+<br>
+<br>
+5. Extras Além dos Requisitos Mínimos:
+<br>
+- Além dos requisitos estabelecidos pelo professor, foram implementadas melhorias adicionais para aprimorar a experiência do usuário. Isso incluiu a inclusão de um carrinho de comprar feito em JavaScript(que também não era obrigatório o uso no projeto).
