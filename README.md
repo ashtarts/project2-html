@@ -29,11 +29,13 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 <h3>Projeto dividido em 3 páginas. Home, Store e Library; de acordo com o que o professor pediu.</h3>
 1. Páginas Estruturadas:
 <br>
- - index.html: Esta é a página inicial do site, que apresenta diversas seções, incluindo Home, Sobre, Biblioteca, Loja, Reviews e Notícias. O layout foi projetado para oferecer uma navegação intuitiva e fácil acesso às informações importantes.
+ - index.html: Esta é a página principal do site, que apresenta diversas seções, incluindo Home, Sobre, Biblioteca, Loja, Reviews e Notícias. O layout foi projetado para oferecer uma navegação intuitiva e fácil acesso às informações importantes.
  <br>
 - Loja.html: A página da loja online, onde os visitantes podem explorar e adquirir livros, produtos educacionais, bem como itens diversos relacionados à marca da EducaLivros. Essa página utiliza o arquivo de estoque (estoque.js) para exibir os produtos disponíveis, e é estilizada com o auxílio do arquivo de estilo carrinho.css.
 <br>
 - Livros.html: A página da biblioteca, que oferece informações sobre os livros disponíveis para empréstimo. Os dados são fornecidos pelo arquivo items.js e a estilização é feita com base no carrinho.css.
+<br>
+- Login.html: A página de Login do usuário, para ele acessar a pánia principal.
 <br>
 <br>
 2. Funcionalidade do Carrinho de Compras:
