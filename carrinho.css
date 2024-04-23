@@ -114,6 +114,11 @@ header{
     flex-direction: column;
     align-content: space-between;
 }
+.card:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease; 
+}
+
 
 .cardImg{
     width: 65%;
