@@ -1,4 +1,4 @@
-import {products} from "../produtos em estoque/items.js";
+import {products} from "./items.js";
 
 const shoppingCart = document.getElementById("shoppingCart");
 const closeCart = document.getElementById("closeCart");
@@ -60,7 +60,6 @@ closeCart.onclick = () => {
     cartContainer.classList.remove("showCartContainer");
 }
 
-// AddClickEvent for button
 const displayItemInCart = () => {
     cartTitle.innerText = `${cartItems.length - 1} Item In cart`;
     eachCartItemContainer.innerHTML="";
@@ -107,4 +106,3 @@ const onRemoveButton = () => {
         }
     }
 }
-
