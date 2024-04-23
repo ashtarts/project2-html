@@ -35,7 +35,7 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 <br>
 - Livros.html: A página da biblioteca, que oferece informações sobre os livros disponíveis para empréstimo. Os dados são fornecidos pelo arquivo items.js e a estilização é feita com base no carrinho.css.
 <br>
-- Login.html: A página de Login do usuário, para ele acessar a pánia principal.
+- Serie.html: A página das mensalidades, que oferece informações sobre os livros disponíveis para a matrícula do aluno. Os dados são fornecidos pelo arquivo serie.js e a estilização é feita com base no carrinho.css.
 <br>
 <br>
 2. Funcionalidade do Carrinho de Compras:
