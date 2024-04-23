@@ -40,3 +40,6 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 <br>
 <br> 
 5. Link do site postado no Vercel no About do repositório.
+<br>
+<br>
+6. Um carrinho funcional, que o usuário consegue inserir e remover produtos, em que a calculadora soma e subtrai automaticamente. Feita em js.
