@@ -82,42 +82,42 @@
             "id": "14",
             "productName": "Curso de Enfermagem",
             "productPrice": "180.00",
-            "productImg": "enfermagem.png"
+            "productImg": ""
         },
         {
             "id": "15",
             "productName": "Curso Preparatório para Vestibular",
             "productPrice": "120.00",
-            "productImg": "curso_preparatorio.png"
+            "productImg": ""
         },
         {
             "id": "16",
             "productName": "Curso de Desenvolvimento de Jogos",
             "productPrice": "150.00",
-            "productImg": "desenvolvimento_jogos.png"
+            "productImg": ""
         },
         {
             "id": "17",
             "productName": "Curso de Programação em Python",
             "productPrice": "110.00",
-            "productImg": "python_programacao.png"
+            "productImg": ""
         },
         {
             "id": "18",
             "productName": "Curso de Escrita Criativa",
             "productPrice": "80.00",
-            "productImg": "escrita_criativa.png"
+            "productImg": ""
         },
         {
             "id": "19",
             "productName": "Curso de Gestão de Projetos",
             "productPrice": "140.00",
-            "productImg": "gestao_projetos.png"
+            "productImg": ""
         },
         {
             "id": "20",
             "productName": "Curso de Redes de Computadores",
             "productPrice": "110.00",
-            "productImg": "redes_computadores.png"
+            "productImg": ""
         },
     ]
