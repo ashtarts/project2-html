@@ -70,7 +70,7 @@
             "id": "12",
             "productName": "Curso de Culinária",
             "productPrice": "R$ 300.00",
-            "productImg": "Cculi1.pg"
+            "productImg": "Cculi.png"
         },
         {
             "id": "13",
