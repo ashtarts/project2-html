@@ -9,19 +9,23 @@
     <script src="./livros.js" type="module"></script>
 </head>
 <body>
+    
+    <section>
 
-    <header>
-        <div class="leftItem">
-            <a href="index.html">
-    <li class="navLink">⇱ VOLTAR</li>
-            </a>
+        <nav>
+
+            <div class="logo">
+                <img src="https://github.com/ashtarts/project2-html/blob/main/img/LogoEL.png?raw=true">
+            </div>
+
+            <ul>
+                <li><a href="#index.html">Home - Voltar</a></li>
+            </ul>
         </div>
-        <div>
-            <h1 class="Logo">EducaLivros - Biblioteca</h1>
-            <nav class="nav">
-              
-            </nav>
-        </div>
+
+
+        </nav>
+
 
         <div class="rightItem" id="shoppingCart">
             <span class="totalItem" id="totalItem"></span>
@@ -36,15 +40,58 @@
         <div id="closeCart">
             <h3 class="closeCart">Close</h3>
         </div>
-        <h1 id="cartTitle">No Item</h1>
+        <h1 id="cartTitle">Sem Item</h1>
 
         <div id="eachCartItemContainer"></div>
 
         <div id="totalPriceContainer">
-            <p>Total Price <span id="totalPrice"></span>R$</p>
+            <p>Preço Total<span id="totalPrice"></span>R$</p>
         </div>
     </div>
+    <div class="banner">
+    </div>
+    <footer>
+        <div class="footer_main">
 
-  
+            <div class="tag">
+                <img src="https://github.com/ashtarts/project2-html/blob/main/img/logo%20(2).png?raw=true">
+                <p>
+                    EducaLivros: Educação criativa, emocional e acadêmica.
+                </p>
+
+            </div>
+
+            <div class="tag">
+                <h1>Contato</h1>
+                <a href="#"><i class="fa-solid fa-phone"></i>+55 81 91122-3344</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+55 81 91234-5678</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>educaLivros@gmail.com</a>
+                
+            </div>
+
+            <div class="tag">
+                <h1>Redes Sociais</h1>
+                <div class="social_link">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                
+            </div>
+
+            <div class="tag">
+                <h1>Jornal Diário</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="You email id here">
+                    <button type="submit">Enviar</button>
+                </div>                
+            </div>            
+            
+        </div>
+
+        <p class="end">Design By<span><i class="fa-solid fa-face-grin"></i> ashtarts</span></p>
+
+    </footer>    
 </body>
 </html>
