@@ -1,4 +1,4 @@
-# Projeto 2 - EducaLivros Online 
+m# Projeto 2 - EducaLivros Online 
 
 <h2>O que o Professor pediu: </h2>
  O objetivo é criar uma experiência de usuário excepcional que destaque a marca da empresa no mercado.
@@ -26,7 +26,7 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 6.Easter Eggao cliente (10%): Surpreenda o cliente com algo interessante.
 
 <h2>Projeto Feito</h2>
-<h3>Projeto dividido em 3 páginas. Home, Store e Library; de acordo com o que o professor pediu.</h3>
+<h3>Projeto dividido em 6 páginas. Home, Store, Library, Página de Mensalidades, Login para o Portal do Aluno e Portal do aluno; de acordo com o que o professor pediu.</h3>
 1. Páginas Estruturadas:
 <br>
  - index.html: Esta é a página principal do site, que apresenta diversas seções, incluindo Home, Sobre, Biblioteca, Loja, Reviews e Notícias. O layout foi projetado para oferecer uma navegação intuitiva e fácil acesso às informações importantes.
@@ -36,6 +36,11 @@ Projetar e implementar uma interface de usuário que atenda às diversas necessi
 - Livros.html: A página da biblioteca, que oferece informações sobre os livros disponíveis para empréstimo. Os dados são fornecidos pelo arquivo items.js e a estilização é feita com base no carrinho.css.
 <br>
 - Serie.html: A página das mensalidades, que oferece informações sobre os livros disponíveis para a matrícula do aluno. Os dados são fornecidos pelo arquivo serie.js e a estilização é feita com base no carrinho.css.
+<br>
+- Login.html:
+<br>
+- Portal.html:
+
 <br>
 <br>
 2. Funcionalidade do Carrinho de Compras:
