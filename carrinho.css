@@ -3,40 +3,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style-type: none;
+    font-family: sans-serif;
+
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #a13308;
-    ;
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
+section nav{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1em;
-    font-weight: bolder;
-    color: #dbdbdb;
-    background-color: #a13308;
-    text-transform: uppercase; 
-    letter-spacing: 2px; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    justify-content: space-around;
+    box-shadow: 0 0 10px #a13308;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #a13308;
+}
+
+section nav .social_icon i{
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+section nav .social_icon i:hover{
+    color: #a13308;
+    cursor: pointer;
 }
 
 .leftItem{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 1em;
+    gap: 5em;
 }
 
 .Logo{
-    color: #f5f5f5;
+    color: #a13308;
     font-weight: 900;
     font-size: 1.6rem;
 }
@@ -51,7 +83,7 @@ header{
     font-weight: 500;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    color: #f0efef;
+    color: #a13308;
     text-decoration: none;
 }
 
@@ -65,7 +97,7 @@ header{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #ffffff;
+    background: #a13308;
     border-radius: 10px;
 }
   
@@ -79,7 +111,7 @@ header{
 }
 
 .totalItem{
-    color: #f0efef;
+    color: #a13308;
     font-weight: 600;
     position: absolute;
     top: -10px;
@@ -107,7 +139,7 @@ header{
     width: 200px;
     height: 310px;
     padding: .5em;
-    background-color:white;
+    background-color:#a13308;
     color: #000000;
     border-radius: 10px;
     box-shadow: 0 0 15px 3px rgba(0, 0, 0, .1);
@@ -158,14 +190,14 @@ header{
     align-items: center;
     padding: 1em;
     border-radius: 50%;
-    color: #a13308;
+    color: #ffffff;
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
 
 .addtocart:hover{
-    background-color: #a13308;
-    color: #f0efef;
+    background-color: #ffffff;
+    color: #a13308;
 }
 
 .cart{
@@ -198,7 +230,7 @@ header{
     width: 0;
     max-width: 500px;
     z-index: 1000;
-    background-color: #F8F8F8;
+    background-color: #a13308;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +258,7 @@ header{
 
 #cartTitle{
     font-size: 1.5rem;
-    color: #ffffff;
+    color: #a13308;
     font-weight: 900;
 }
 
@@ -236,7 +268,7 @@ header{
     grid-template-columns: 1fr 5fr;
     align-items: center;
     gap: 5px;
-    background-color: white;
+    background-color: #a13308;
     margin: .5em;
     border-radius: 10px;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1);
@@ -262,21 +294,21 @@ header{
 
 .remove{
     border: none;
-    background-color: #a13308;
+    background-color: #fdfdfd;
     padding: .5em;
     font-size: .9rem;
-    color: white;
+    color: #a13308;
     font-weight: bold;
     border-radius: 5px;
     margin-top: .3em;
     cursor: pointer;
-    border: 2px solid #a13308;
+    border: 2px solid #ffffff;
     transition: all .2s ease-in-out;
 }
 
 .remove:hover{
     color: black;
-    border: 2px solid #a13308;
+    border: 2px solid #ffffff;
     background-color: transparent;
 }
 
@@ -291,4 +323,112 @@ header{
 
 #totalPrice{
     font-weight: 900;
+}
+
+
+footer{
+    width: 100%;
+    background: #eaeaea;
+}
+
+footer .footer_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag{
+    margin: 10px 0;
+}
+
+footer .footer_main .tag img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .footer_main .tag p{
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer_main .tag i{
+    margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i{
+    margin: 0 5px;
+}
+
+footer .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: rgba(202,202,202);
+    border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: #a13308;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #000;
+}
+
+footer .end span{
+    color: #a13308;
+    margin-left: 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://github.com/ashtarts/project2-html/blob/main/img/banner.png?raw=true);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn{
+    padding: 8px 20px;
+    background: #a13308;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
 }
