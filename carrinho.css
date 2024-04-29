@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 
 *{
     margin: 0;
@@ -108,14 +110,15 @@ section nav .social_icon i:hover{
 
 .rightItem{
     position: relative;
+    color: #a13308;
 }
 
 .totalItem{
     color: #a13308;
     font-weight: 600;
     position: absolute;
-    top: -10px;
-    right: -3px;
+    top: 10px;
+    right: 20px;
     z-index: 100;
 }
 
