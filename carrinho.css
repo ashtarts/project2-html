@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +16,7 @@ section{
     background-position: center;
 }
 
-section nav{
+section nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -26,9 +25,10 @@ section nav{
     background: #fff;
     position: fixed;
     left: 0;
+    top: 3%;
+    transform: translateY(-50%); 
     z-index: 100;
 }
-
 section nav .logo img{
     width: 100px;
     cursor: pointer;
@@ -117,8 +117,8 @@ section nav .social_icon i:hover{
     color: #a13308;
     font-weight: 600;
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: -10px;
+    right: -3px;
     z-index: 100;
 }
 
