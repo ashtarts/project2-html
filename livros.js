@@ -78,7 +78,7 @@ const displayItemInCart = () => {
                `<div class="cartDesc">`+
                    `<h1 class="cartItemName">${productName}</h1>`+
                    `<p class="cartItemPrice">${productPrice}$</p>`+
-                   `<button class="remove" id="remove${id}">Remove</button>`+
+                   `<button class="remove" id="remove${id}">Remover</button>`+
                `</div>`+
             `</div>`
             }
