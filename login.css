@@ -7,23 +7,54 @@
     color: #000;
 }
 
-header {
-    min-height: 9vh;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 2px solid #e18001;
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-position: center;
 }
 
-header h1 {
-    font-size: 2.5em;
-    color: #fff;
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #a13308;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    text-decoration: none;
+    color: #000;
+}
+
+section nav li a:hover{
+    color: #a13308;
 }
 
 main {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(to top,#98962d, #b37d37);
+    background: linear-gradient(to top,#a75c3f, #a13308);
 
     display: flex;
     justify-content:center;
@@ -32,7 +63,7 @@ main {
 }
 
 main form {
-    margin-top: 4%;
+    margin-top: 8%;
     width: 40%;
     height: 35vh;
     background-color: #ffffff;
